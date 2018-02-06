@@ -1,0 +1,6 @@
+﻿ <local:DynamicCanvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                      xmlns:local="clr-namespace:Adsophic.PhotoEditor.GUILibrary;assembly=Adsophic.PhotoEditor.GUILibrary" 
+                      Background="White" x:Name="ImageCanvas">
+       <Image local:DynamicCanvas.Left="4" local:DynamicCanvas.Top="4" Stretch="Fill" x:Name="ImageHolder" />
+</local:DynamicCanvas>

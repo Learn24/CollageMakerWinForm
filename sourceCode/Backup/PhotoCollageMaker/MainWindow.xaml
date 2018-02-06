@@ -1,0 +1,21 @@
+﻿<Window x:Class="PhotoEditor.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Collage Maker" Height="600" Width="800" Icon="AppIcon.ico" Loaded="Window_Loaded">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Menu IsMainMenu="True" Grid.Row="0" Grid.Column="0" Name="MainMenu">
+            <MenuItem Name="FileMenu" Header="_File">
+                <MenuItem Name="NewCollageWindow" Header="_New Collage..." Click="NewCollageWindow_Click" InputGestureText="Ctrl+N" />
+                <MenuItem Name="ExitApplication" Header="E_xit" Click="ExitApplication_Click" InputGestureText="Alt+F4"/>                
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

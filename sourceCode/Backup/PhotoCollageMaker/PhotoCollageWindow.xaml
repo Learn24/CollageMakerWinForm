@@ -1,0 +1,40 @@
+﻿<Window x:Class="PhotoEditor.PhotoCollageWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Adsophic.PhotoEditor.GUILibrary;assembly=Adsophic.PhotoEditor.GUILibrary" 
+    Title="Photo Collage" x:Name="MainWindow" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" Icon="AppIcon.ico">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Menu IsMainMenu="True" Grid.Row="0" Grid.Column="0" Name="MainMenu">
+            <MenuItem Name="Main" Header="Main">
+                <MenuItem Name="ChangeMainImage" Header="Change Background Picture..."  Click="ChangeMainImage_Click" InputGestureText="Ctrl+M"/>
+                <MenuItem Name="AddImageOpen" Header="Add Collage Picture..." Click="AddImage_Click" InputGestureText="Ctrl+A"/>
+                <MenuItem Name="SaveImage" Header="Save Collage..." Click="SaveImage_Click" InputGestureText="Ctrl+S"/>
+                <MenuItem Name="SaveImageAs" Header="Save Collage As..." Click="SaveImageAs_Click"/>
+                <MenuItem Name="CloseWindow" Header="Close" Click="CloseWindow_Click"  InputGestureText="Ctrl+W"/>
+            </MenuItem>
+            <MenuItem Name="Edit" Header="_Edit">
+                <MenuItem Name="UndoLastAction" Header="Undo" Click="UndoLastAction_Click" InputGestureText="Ctrl+Z"/> 
+            </MenuItem>
+        </Menu>
+        
+    </Grid>
+    <!--
+    <local:DynamicCanvas Background="White" x:Name="ImageCanvas">
+        <Image Source="TestSnap.jpg" Width="792" Height="592" local:DynamicCanvas.Left="4" local:DynamicCanvas.Top="4" local:DynamicCanvas.Right="4" local:DynamicCanvas.Bottom="4" Stretch="Fill" x:Name="ImageHolder" />
+    </local:DynamicCanvas>
+    <Grid Name="WindowGrid" Background="Gray">        
+        <custom:ImageViewer></custom:ImageViewer>
+     </Grid>
+    
+    <Grid >
+        <Image Source="TestSnap1.jpg" />
+    </Grid>
+    -->
+</Window>

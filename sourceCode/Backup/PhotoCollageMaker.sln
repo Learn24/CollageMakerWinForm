@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCollageMaker", "PhotoCollageMaker\PhotoCollageMaker.csproj", "{999BBEBF-86B1-41D5-BFD1-125BBADEE9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adsophic.Common.GUILibrary", "GUILibrary\Adsophic.Common.GUILibrary.csproj", "{802DAA01-36DB-48A5-804B-28F7D777265A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adsophic.Common.Util", "Util\Adsophic.Common.Util.csproj", "{45EA5A85-24C4-4263-A880-F4A7B5B67BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{999BBEBF-86B1-41D5-BFD1-125BBADEE9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999BBEBF-86B1-41D5-BFD1-125BBADEE9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999BBEBF-86B1-41D5-BFD1-125BBADEE9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999BBEBF-86B1-41D5-BFD1-125BBADEE9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802DAA01-36DB-48A5-804B-28F7D777265A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802DAA01-36DB-48A5-804B-28F7D777265A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802DAA01-36DB-48A5-804B-28F7D777265A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802DAA01-36DB-48A5-804B-28F7D777265A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EA5A85-24C4-4263-A880-F4A7B5B67BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EA5A85-24C4-4263-A880-F4A7B5B67BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EA5A85-24C4-4263-A880-F4A7B5B67BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EA5A85-24C4-4263-A880-F4A7B5B67BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

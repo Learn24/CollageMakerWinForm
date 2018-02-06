@@ -1,0 +1,5 @@
+DynamicCanvas Jafar Hussein
+http://themechanicalbride.blogspot.com/2008/11/auto-sizing-canvas-for-silverlight-and.html
+
+Dragging elements inside a canvas: Marcelo's web log 
+http://blogs.msdn.com/marcelolr/archive/2006/03/02/542641.aspx

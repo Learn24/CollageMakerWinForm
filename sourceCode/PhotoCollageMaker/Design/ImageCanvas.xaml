@@ -1,0 +1,28 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                      Background="BlanchedAlmond" Opacity="1" 
+                      Height="200" Width="200" x:Name="canvas">
+    <Image x:Name="image" Stretch="Fill" IsHitTestVisible="False"/>
+    <Rectangle x:Name="rectHorizontal"
+               Fill="BlanchedAlmond" Opacity="0.4" IsHitTestVisible="False">
+        <Rectangle.OpacityMask>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="BlanchedAlmond" Offset="0"/>
+                <GradientStop Color="Transparent" Offset="0.05"/>
+                <GradientStop Color="Transparent" Offset="0.95"/>
+                <GradientStop Color="BlanchedAlmond" Offset="1"/>                
+            </LinearGradientBrush>
+        </Rectangle.OpacityMask>
+    </Rectangle>
+    <Rectangle x:Name="rectVertical"
+               Fill="BlanchedAlmond" Opacity="0.4" IsHitTestVisible="False">
+        <Rectangle.OpacityMask>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="BlanchedAlmond" Offset="0"/>
+                <GradientStop Color="Transparent" Offset="0.05"/>
+                <GradientStop Color="Transparent" Offset="0.95"/>
+                <GradientStop Color="BlanchedAlmond" Offset="1"/>
+            </LinearGradientBrush>
+        </Rectangle.OpacityMask>
+    </Rectangle>
+</Canvas>
